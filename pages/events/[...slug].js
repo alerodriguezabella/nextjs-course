@@ -79,7 +79,7 @@ function FilteredEventsPage(props) {
     return (
       <>
         <ErrorAlert>
-          <p>No events found for the chosen filter!</p>;
+          <p>No events found for the chosen filter!</p>
         </ErrorAlert>
         <div className="center">
           <Button link="/events">Show all events</Button>
